@@ -1,0 +1,2 @@
+#!/bin/bash
+find | tail -n +2 | uniq -c | sort -rnk 1 | rev |cut -d'/' f1 | rev |
