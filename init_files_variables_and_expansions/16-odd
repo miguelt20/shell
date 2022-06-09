@@ -1,2 +1,2 @@
 #!/bin/bash
-cat - |grep "something"|while read l_line | echo $l_line
+cut -d'\n' -f1,3,5,6,7
