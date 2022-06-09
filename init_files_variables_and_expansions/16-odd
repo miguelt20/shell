@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1
+cat - |grep "something"|while read l_line | echo $l_line
