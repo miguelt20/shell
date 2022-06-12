@@ -1,18 +1,16 @@
 #!/usr/bin/env bash
 #This script displays information about the School file with conditions.
 fe=(-f "school")
-fne=(-empty "school")
-fr=(-f "school")
 if [ $fe ]
  then
      echo "school file exists"
-     if [ $fne ]
+     if [ $fe -empty ]
      then
 	 echo "school file is empty"
      else
 	 echo "school file is not empty"
      fi
-        if [ $fr ]
+        if [ $fe ]
         then
 	    echo "school is a regular file"
         else
