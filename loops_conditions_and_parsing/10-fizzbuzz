@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This script displays numbers fomr 1 to 100 and when a number is multiple of 3 is going to show the word Fizz and whn is multiple of 5 it displays the word Buzz and when is multiple of both it displays the word FizzBuzz.
 n=0
-while [ $n -lt 20 ]
+while [ $n -lt 100 ]
 do
     (( n++ ))
    
