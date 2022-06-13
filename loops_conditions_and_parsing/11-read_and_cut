@@ -1,4 +1,4 @@
-#!/usr/bin/env/ bash
+#!/usr/bin/env bash
 #This script reads the content of a file and show specific parts of it.
 file="/etc/passwd"
 while read -r line
