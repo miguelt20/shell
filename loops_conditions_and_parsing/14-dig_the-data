@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #This scripts displays a Bash script that groups visitors by IP and HTTP status code, and displays this data.
 
-awk '{print nr,$1,$8,$9}' apache-access.log
+awk '{print $1,$8,$9}' apache-access.log
