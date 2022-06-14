@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #This script stops the 4 file using the kill command.
 kill -9 $(pgrep -f  4-to_infinity_and_beyond)
-#shellcheck disable=SC2046
+# shellcheck disable=SC2046
