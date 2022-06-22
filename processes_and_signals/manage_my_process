@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Manage my process
 
 touch /tmp/my_process
 
