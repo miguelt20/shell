@@ -1,12 +1,26 @@
 #!/usr/bin/env bash
-#create file and displays message with signals
 
-touch /var/run/myscript.pid
-bash -c 'echo $$ > /var/run/myscript.pid'
-while true
-    echo "To infinity and beyond"
-    sleep 2
-    trap 'echo "I hate the kill command"; sudo rm /var/run/myscript.pid; exit' SIGTERM
-    trap 'echo "Y U no love me?!"' SIGINT
-    trap 'sudo rm /var/run/holbertonscript.pid; exit' SIGQUIT
-done
+argv1=$1
+start()
+{
+./manage_my_process & echo $! > "/var/run/my_process.pid" && echo "manage_my_process started"
+}
+stop() {
+sudo pkill -f "./manage_my_process" && sudo rm "/var/run/my_process.pid" && echo "manage_my_process stopped"
+}
+restart() {
+sudo pkill -f "./manage_my_process"
+sudo rm  "var/run/my_process.pid"
+./manage_my_process & echo $! > "/var/run/my_process.pid"
+echo manage_my_process restarted
+}
+case "$argv1" in
+start) start
+;;
+stop)  stop
+;;
+restart) restart
+;;
+*) echo "Usage: manage_my_process {start|stop|restart}"
+;;
+esac

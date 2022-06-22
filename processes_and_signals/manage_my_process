@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+touch /tmp/my_process
+
+while [ -f /tmp/my_process ];
+do
+    echo I am alive! >> /tmp/my_process
+    sleep 2
+done
