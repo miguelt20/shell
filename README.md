@@ -1,4 +1,6 @@
-# The Shell
+<p align="center"> 
+    # The Shell 
+</p>
 
 <p align="center">
     <img alt="Shell Image" src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" />
