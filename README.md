@@ -1,6 +1,8 @@
 # The Shell
 
-<div style="width:100% display:flex justify-content:center"><img src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" /></div>
+<p align="center">
+    <img src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" />
+</p>
 
 ![Bash Image](https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg)
 
