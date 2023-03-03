@@ -1,13 +1,8 @@
 # The Shell
 
 <p align="center">
-    <img src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" />
+    <img alt="Shell Image" src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" />
 </p>
-
-![Bash Image](https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg)
-
-<img align="center" src ="https://i.pinimg.com/236x/e8/ba/a0/e8baa0dde0068757010c6da293720ba9.jpg" />
-
 
 The shell is a program that takes commands from the keyboard and gives them to the operating system to perform. In the old days, it was the only user interface available on a Unix-like system such as Linux. Nowadays, we have graphical user interfaces (GUIs) in addition to command line interfaces (CLIs) such as the shell.
 
