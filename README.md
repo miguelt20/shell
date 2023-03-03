@@ -1,5 +1,5 @@
 <h1 align="center"> 
-    The Shell 
+    Shell 
 </h1>
 
 <p align="center">
