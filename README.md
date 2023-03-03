@@ -1,5 +1,5 @@
 # The Shell
-![alt text](https://raw.githubusercontent.com/miguelt20/shell/master/assets/image1.jpg)
+![alt text](https://img.freepik.com/vector-gratis/ilustracion-concepto-estructuras-javascript_114360-734.jpg?size=626&ext=jpg&ga=GA1.1.906737145.1677859835&semt=sph)
 The shell is a program that takes commands from the keyboard and gives them to the operating system to perform. In the old days, it was the only user interface available on a Unix-like system such as Linux. Nowadays, we have graphical user interfaces (GUIs) in addition to command line interfaces (CLIs) such as the shell.
 
 This repository contains the basic steps to learn how to use a shell properly and take advantage of it.
